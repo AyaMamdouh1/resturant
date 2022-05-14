@@ -1,0 +1,1149 @@
+nav
+{
+    background-color: #ececec;
+}
+
+nav .input 
+{
+ position: relative;
+ display: flex;
+ align-items: center;
+ border: none;
+ border-radius: 5px;
+}
+nav input
+{  border: none;
+
+    border-radius: 5px;
+
+}
+nav #list
+{
+    display: none;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+
+}
+nav #list i
+{
+    position: relative;
+    top: -5px;
+    margin: 10px;
+    color: black;
+}
+nav i
+{
+    position: relative;
+    top:5px;
+    color:#ec5771 ;
+}
+nav .input i
+{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #ec5771;
+}
+.nav2
+{
+    height: 70px;
+}
+.nav2 a
+{
+    text-decoration: none;
+}
+.nav2 .new
+{
+border-bottom: 3px solid black;   
+
+
+
+}
+ .nav2 .recent
+ {
+    border-bottom: 3px solid black;   
+
+ }
+ .nav2 .prev
+ {
+    border-bottom: 3px solid black;   
+    /* background-color: #1c9550; */
+
+ }
+#offer
+{
+    background-color: #ffffff;
+}
+
+#offer h1
+{
+    font-size: 25px;
+    font-weight: bolder;
+}
+ .ofrcntainr,.rgstrcntainr
+{
+    background-color: #ececec;
+
+    border: 1px solid #efefef;
+    border-radius: 30px;
+}
+.ofrcntainr input
+{
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+.ofrcntainr textarea
+{
+    background-color: #f3f3f3;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+.ofrcntainr .date
+{
+
+    width: 45%;
+}
+.ofrcntainr .date .layer
+{
+    background: #e5e5e5;
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.ofrcntainr .date .layer i
+{
+    position: relative;
+    font-size: 20px;
+}
+
+.ofrcntainr button
+{
+    background-color: #bb194d;
+    border: 1px solid transparent;
+border-radius: 10px;
+}
+.KFC
+{
+    height: 400px;
+      background-image: url("../imgs/rest-bg.jpg");
+      background-size: 100% 100%;
+}
+.KFC .stars
+{
+    background-color: white;
+    border-radius:30px ;
+    width: 10%;
+}
+#meal img
+{
+    width: 50%;
+    height:100%;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.KFC .myproduct button
+{
+    border-radius: 30px;
+    background-color: #c71f4e;
+
+
+}
+#sofra
+{
+    background-image: url("../imgs/favor-bg.png");
+    background-size: 100% 100%;
+}
+#sofra .col-lg-4 .layer
+{
+    width: 95%;
+    margin: auto;
+    background-color: #ffffff;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+
+}
+#sofra .content img
+{
+    width: 5%;
+    height: 5%;
+    margin-left: 10px;
+}
+
+#sofra .content p
+{
+font-size: 30px;
+font-weight: bolder;
+position: relative;
+top:10px;
+}
+
+#sofra .layer h1
+{
+    font-size: 20px;
+    color: #ff4057;
+}
+#sofra .layer p
+{
+    font-size: 16px;
+    color: #bebebe;
+}
+#sofra .content p
+{
+    color: #ef5a74;
+}
+#sofra button
+{
+    background-image: url("../imgs/btn-card.png");
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 10px;
+ }
+#register
+{
+    background-image: url("../imgs/bg\ img.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#register .Categories i
+{
+    position: relative;
+    top: -35px;
+    left: -280px;
+    font-size: 25px;
+}
+
+#register .rgstrcntainr
+{
+    background-color: white;
+    border: 3px solid #f9f9f9;
+
+}
+#register .userimg
+{
+    position: relative;
+    top: -60px;
+    width: 35%;
+}
+.rgstrcntainr span
+
+{
+    color:#e3b7c9;
+}
+ 
+#register input
+{
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f3f3f3;}
+    #register button
+    {
+        background-color: #b5144b;
+        border: none;
+
+        border-radius: 30px;
+    }
+
+
+    #login
+{
+    background-image: url("../imgs/bg\ img.png");
+    background-size: 100% 100%;
+    background-position: top;
+}
+#login .rgstrcntainr
+{
+    background-color: white;
+    border: 2px solid #f9f9f9;
+
+}
+#login .userimg
+{
+    position: relative;
+    top: -40px;
+    width: 35%;
+    
+}
+ 
+#login input
+{
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f3f3f3;}
+ #login a
+    {
+        color: #f598a8;
+text-decoration:none ;
+font-size: 20px;
+font-weight: bolder;
+    }
+#login button
+    {
+        background-color: #ad104a;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+.homesofra
+{
+    height: 500px;
+    background-image: url("../imgs/header.jpg");
+    background-size: 100% 100%;
+}
+#complaint
+{
+    width: 20px;
+    height: 20px;
+    background-color: #240041;
+    
+}
+
+#Suggestion,#Enquiry
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;   
+    
+
+}
+.greencircle
+{
+    width:20px;
+    height: 20px;
+    background-color: #3dc96b;
+    border-radius: 50%;
+    position: relative;
+    top: -7px;
+}
+#favresturant .layer .row
+{
+    width: 95%;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #d9d8d8;
+    border-radius: 10px;
+
+}
+#favresturant
+{
+    background-image: url("../imgs/favor-bg.png");
+    background-size: 100% 100%;
+}
+
+#favresturant .input  input
+{
+    background-color: white;
+    border-radius: 15px;
+    height: 50px;
+    border: none;
+
+}
+
+#favresturant .input  i
+{
+    position: relative;
+    left:50px;
+    color: #fb7b89;
+
+}
+#favresturant h2
+{
+    color: #f16c83;
+    font-size: 30px;
+}
+#favresturant .stars i
+{
+    font-size: 24px;
+}
+#reload p
+{
+    font-size: 0px;
+}
+#offfers .col-lg-8
+{
+    background-image: url("../imgs/offers-bg.jpg");
+    background-size:cover;
+    /* height: 300px; */
+    padding: 50px 0px;
+}
+#offfers  button
+{
+    background-color: #b7154c;
+    border-radius: 20px;
+    border:none;
+
+}
+#reload
+{
+    background-image: url("../imgs/app-bg.png");
+    background-size: 100% 100%;
+    height: 500px;
+
+}
+#reload button
+{
+    background-image: url("../imgs/btn-card.png");
+    border-radius: 10px;
+    background-size: cover;
+    border:none;
+
+}
+#reload .btn
+{
+    width: 35%;
+
+}
+#reload .btn i
+{
+    position: relative;
+
+}
+#reload .col-lg-4
+{
+    background-image: url("../imgs/app-download.png");
+    background-position: bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#cart
+{
+    background-image: url("../imgs/cart-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#cart .content 
+{
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+
+}
+
+#cart .content img
+{
+    border-radius: 5px;
+}
+#cart .content p
+{
+  font-weight: 700;
+  
+}
+#cart .content p span
+{
+    background-color: #9585a2;
+    padding: 5px 20px;
+}
+#cart .content button
+{
+    background-color: #ec3454;
+    font-size: 24px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+}
+#contactus .contnents
+{
+    background-image: linear-gradient(#e42f53,#a50c4a);
+}
+#contactus button
+{
+    background-color: #240041;
+    border-radius: 30px;
+    border: none;
+}
+#myaccount .contnents
+{
+       background-color: #646464;
+    /* background-image: linear-gradient( to bottom,#e42f53,#a50c4a); */
+}
+#meal .contnents
+{
+    background-color: #646464;
+    width: 90%;
+    padding:20px ;
+
+}
+#myaccount .contnents input
+{  
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none; 
+    width: 90%;
+}
+#myaccount .contnents textarea
+{
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none; 
+    width: 90%;
+}
+#myaccount .contnents button
+{
+    background-color: #240041;
+    border-radius: 30px;
+    border: none;
+}
+
+#contactus .contnents input
+{  
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none; 
+    width: 90%;
+}
+#contactus .contnents textarea
+{
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none; 
+    width: 90%;
+}
+
+#meal .contnent
+{
+    width: 80%;
+    border-bottom: 1px solid #ececec;
+}
+#meal h1
+{
+    font-weight: 900;
+    font-size: 24px;
+}
+#meal .d-flex p
+{
+    font-size:24px ;
+    font-weight: 400;
+}
+#meal .d-flex i
+{
+    position: relative;
+    top:15px;
+    font-size: 24px;
+
+}
+
+#info .cartbutn
+{
+    background-image: url("../imgs/Group\ 1039.png");
+    background-size: 100% 100% ;
+    height: 100px;
+    border-radius: 30px;
+}
+#info .infoicon
+{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    position: relative;
+    top: 15px;
+}
+
+#info h1
+{
+    color:#ed425f;
+}
+#Reviews h2
+{
+    color: #ed425f;
+}
+.hline
+{
+    height: 40px;
+    width: 2px;
+    margin-left: 5px;
+    background-color:#240041;
+}
+.clientreview
+{
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+.clientreview .stars
+{
+    /* padding: 5px 15px; */
+    background-color: #ffffff;
+    width: 30%;
+    border-radius: 30px;
+}
+.clientreview .stars i
+{
+    font-size: 24px;
+}
+.clientreview p
+{color: #fc4f64;}
+.clientreview .p2
+{
+    font-size: 20px;
+}
+#yourreview h2
+{
+    color: #ed425f;
+
+}
+#yourreview  .stars
+{ 
+    background-color: #ececec;
+    width: 13%;
+    border-radius: 30px;}
+    
+#yourreview .stars i
+{
+    font-size:24px;
+}
+#yourreview textarea
+{
+    background-color: #f9f9f9;
+    border: 1px solid #f6f6f6;
+}
+#yourreview button
+{
+    width: 15%;
+    background-color: #b3134c;
+    border: none;
+    border-radius: 30px;
+}
+input[type="radio"] {
+    position: relative;
+    top:-10px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+#complaint
+{
+
+}
+#more
+{
+    background-image: url("../imgs/");
+}
+#order .contnents
+{
+    background-color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 10px;
+}
+#order .contnents button
+{
+    width: 25%;
+    border-radius: 30px;
+    border: none;
+}
+
+.red
+{
+    color: #f0677f;
+    font-size: 20px;
+    font-weight: bold;
+}
+.black
+{
+    color: #250242;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#recentorder .contnents
+{
+    background-color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 10px;
+}
+
+#prevorder .contnents
+{
+    background-color: #ececec;
+    border: 2px solid #ececec;
+    border-radius: 10px;
+}
+
+
+.red
+{
+    color: #d6aebf;
+    font-weight: 500;
+}
+#recentorder button
+{
+    width: 45%;
+    border-radius: 30px;
+    border: none;
+    
+}
+#prevorder button
+{
+    width: 45%;
+    border-radius: 30px;
+    border: none;
+    
+}
+
+#recentorder .contact
+{background-color:#ec3656;}
+#recentorder .receive
+{background-color:#1c9550;} 
+#prevorder .receive
+{background-color:#1c9550;} 
+#order .contact
+{background-color:#ec3656;}
+#order .receive
+{background-color:#1c9550;}
+#order .Refusal
+{background-color:#240041;}
+#order span
+{
+    color: #e0b0c5;
+    font-weight: bolder;
+    font-size: 16;
+}
+.myproduct button
+{
+    background-image: url("../imgs/btn-card.png");
+    /* border: none; */
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.details
+{
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    width: 75% !important;
+    margin: auto;
+}
+textarea
+{
+    border-radius: 10px;
+
+}
+.e3lan
+{
+    background-color: #f1f1f1;
+}
+.e3lan i
+{
+    position: relative;
+    top: -30px;
+    left: -270px;
+}
+.orange
+{
+    color:#fb9e79;
+}
+.red
+{color: #d04d63;}
+.e3lan .r2
+{
+    background-color: #ececec;
+}
+.share
+{
+    background-color: #f1775c;
+}
+.e3lan button
+{
+    background-image: url("../imgs/Rectangle\ 51.png");
+    border-radius: 30px;
+    background-size: contain;
+    border: 1px solid transparent;
+}
+.e3lan .col-5
+{
+    background-image: url("../imgs/Group\ 33.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.e3lan .img
+{
+    background-image: url("../imgs/Group\ 33.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* width: 90%; */
+    /* margin: auto; */
+}
+.e3lan input 
+{
+    background-color:#ffffff;
+    height: 40px;
+    border-radius: 100px;
+width: 100%;
+border: 1px solid transparent;
+}
+.details
+{
+    background-color:#ffffff;
+    height: 40px;
+    border-radius: 100px;
+width: 100%;
+border: 1px solid #FFFff5;
+}
+.cf455c
+{
+    background-color: #cf455c;
+    border-radius: 100px;
+
+}
+
+textarea
+{
+    background-color: #ffff;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+}
+
+#Hmemenu
+{
+    background-image: url("../imgs/Rectangle\ 51.png");
+    background-size: contain;
+    position: relative;
+    top: -50px;
+}
+#Hmemenu input
+{
+    border-radius: 30px;
+     height: 50px;
+    border: 1px solid transparent;
+
+}
+#Hmemenu  i
+{
+    position: relative;
+    right: 320px;
+    top: -35px;
+}
+#Addedads 
+{
+    background-color: #ffffff;
+}
+
+#Addedads .layerr
+{
+    background-color: #cecece !important;
+    border-radius: 5px;
+}
+#Addedads button
+{
+    background-image: url("../imgs/Rectangle\ 51.png");
+    border-radius: 30px;
+    height: 50px;
+    background-size: contain;
+    border: 1px solid transparent;
+}
+#login .bg
+{
+    background-image: url("../imgs/Rectangle\ 51.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#password .bg
+{
+background-image: url("../imgs/Rectangle\ 51.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+#login
+{
+    background-color: #f1f1f1;
+    
+}
+#login .r
+{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#password
+{
+    background-color: #f1f1f1;
+
+}
+#password .input
+{
+    position: relative;
+    height: 50px;
+}
+#password .input i
+{
+    position: absolute;
+    top:20px;
+    right: 20px;
+
+}
+#password input
+{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+}
+#password button
+{
+    /* margin-right: 50px; */
+    color: white;
+    border: 1px solid transparent;
+    height: 50px;
+
+}
+#carsmenu 
+{
+    position: relative;
+    top:-30px;
+    width: 70%;
+    height: 250px;
+    background-image: url("../imgs/Rectangle\ 51.png");
+    background-position: center center;
+    background-size: contain;
+}
+.vl
+{
+    height: 50px;
+    width: 6px;
+    background-color: #faaf92;
+    margin-left: 10px;
+}
+#carsmenu input
+{
+    width: 100% !important;
+    border-radius: 30px;
+
+    border: 1px solid #ffffff;
+
+}
+#carsmenu .input i
+{
+    position: relative;
+    top: -40px;
+    left: -180px;
+}
+#carsmenu .input
+{
+    height: 60px;
+    border-radius: 30px;
+}
+#carsmenu .input2 i
+{
+    position: relative;
+    top:-25px;
+    left: -180px;
+}
+
+#carsmenu .input2
+{
+    height: 30px;
+    border-radius: 30px;
+}
+#cartypes
+{
+    background-color: #f1f1f1;
+}
+
+#cartypes .Featuredads .light .layer
+{
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+}
+#cardetails .imgcar 
+{
+background-image: url("../imgs/2.png");
+background-size: 100% 100%;
+background-position: center center;
+background-repeat: no-repeat;
+}
+#cardetails .imgcar .layer
+{
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+}
+.Featuredads .text-center
+{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.red
+{
+    color: #e9ccd1;
+}
+#cardetails
+{
+    background-color: #f1f1f1;
+}
+ #cardetails .details
+{
+
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    /* margin-bottom: 20px; */
+        display:flex;
+        align-items: center;
+
+}
+
+#cardetails .details p
+
+{
+
+    /* background-color: #cf455c; */
+}
+#cardetails .detailsrow
+{
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    width: 90%;
+
+}
+
+.bg
+{
+    background-image: url("../imgs/Rectangle\ 51.png");
+    background-size: contain;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+.bg-red
+{
+    background-color: #cf455c !important;
+    width: 75%;
+    height: 50px;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+.bg-orange
+{
+    background-color: #ff8a5c;
+    width: 73%;
+    height: 50px;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+#cardetails .col-4 .row0
+{
+    background-color: #ffffff;
+    height: 150px;
+    border-radius: 10px;
+}
+#cardetails .col-4 .row2
+{
+    background-color: #646464;
+    border-radius: 15px;
+    
+}
+#myImg
+{
+    height: 50px;
+    /* height: 200px; */
+    /* height: 300px; */
+}
+#cardetails .col-4 .circle2
+{
+    width: 15px;
+    height: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #d8805e;
+}
+
+#cardetails label
+{
+
+}
+ #cardetails .detailsdouple
+ {    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+
+     height: 250px;
+     white-space: pre-wrap;
+     /* word-wrap: break-word; */
+     overflow-wrap:break-word
+    }
+.ads .text-center
+{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#passeord .r
+{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+p
+{
+   word-break: break-word;
+}
+.circle
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff8a5c;
+
+}
+.t-cf455c
+{
+    color: #cf455c;
+}
+.specialtext
+{
+    font-size: 10px;
+    color: #eec1c8;
+    position: relative;
+    /* top:px; */
+    font-weight: bolder;
+}
+.bg-light
+{
+    background-color: #ffffff !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid #ffffff;
+
+}
+footer
+{
+    
+background-image: url("../imgs/footerbg.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+footer .img1
+{
+    width:25%;
+    position: relative;
+    top: 50px;
+}
+footer i
+{
+    text-decoration: none;
+    color: white;
+}
+footer .googleplay,footer .appstore
+{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 30px;
+
+}
